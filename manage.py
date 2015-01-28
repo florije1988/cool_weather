@@ -6,8 +6,8 @@ import os
 from flask.ext.script import Manager, Shell, Server
 from flask.ext.migrate import Migrate, MigrateCommand
 
-from todo import create_app
-from todo.models import db
+from weather import create_app
+from weather.models import db
 
 
 app = create_app(os.getenv('FLASK_CONFIG') or 'development')
@@ -30,7 +30,7 @@ manager.add_command('db', MigrateCommand)
 
 @manager.command
 def create_db():
-    from todo import db
+    from weather import db
 
     db.create_all()
 

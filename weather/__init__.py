@@ -30,9 +30,9 @@ def create_app(config_name):
     ma.init_app(app=app)
 
     # main module
-    from app_account import app_account as app_account_blueprint
+    from interface import app_interface as interface_blueprint
 
-    app.register_blueprint(app_account_blueprint, url_prefix='/account')
+    app.register_blueprint(interface_blueprint, url_prefix='/interface')
 
     handler = TimedRotatingFileHandler(
         filename='{0}/{1}'.format(app.config.get('LOG_PATH'), app.config.get('LOG_NAME')), when='D',
