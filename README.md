@@ -112,3 +112,10 @@ http://blog.csdn.net/gaojinshan/article/details/25891809
 
 还有：   
 http://m.weather.com.cn/data/101280601.html   
+
+https://blog.alphatr.com/weather-jsonp-api.html   
+http://www.weather.com.cn/m2/i/icon_weather/29x20/d01.gif   
+http://www.cnblogs.com/technology/p/3488176.html   
+http://www.cnblogs.com/waddell/p/3391137.html   
+http://blog.csdn.net/hmt20130412/article/details/25657879   
+http://blog.mynook.info/post/weather-com-cn-api   
