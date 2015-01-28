@@ -51,8 +51,8 @@
 00: "北京"
 `}
 
-获取县市：
-{
+获取县市：   
+`{
 10: "石景山",
 11: "大兴",
 12: "房山",
@@ -68,10 +68,10 @@
 07: "昌平",
 08: "延庆",
 09: "丰台"
-}
+`}
 
-获取当天：
-{
+获取当天：   
+`{
 weatherinfo: {
 city: "北京",
 cityid: "101010100",
@@ -82,10 +82,10 @@ img1: "d1.gif",
 img2: "n2.gif",
 ptime: "11:00"
 }
-}
+`}
 
-实时信息：
-{
+实时信息：   
+`{
 weatherinfo: {
 city: "北京",
 cityid: "101010100",
@@ -100,15 +100,15 @@ Radar: "JC_RADAR_AZ9010_JB",
 njd: "暂无实况",
 qy: "1030"
 }
-}
+`}
 
 
-规则：
+规则：   
 直辖市：北京、上海、天津、重庆，比较特殊，从station到cityinfo的步骤是在00前5位后加入县市的id然后再加00
 
-可以参照这里：
-http://blog.csdn.net/gaojinshan/article/details/27665741
-http://blog.csdn.net/gaojinshan/article/details/25891809
+可以参照这里：   
+http://blog.csdn.net/gaojinshan/article/details/27665741   
+http://blog.csdn.net/gaojinshan/article/details/25891809   
 
-还有：
-http://m.weather.com.cn/data/101280601.html
+还有：   
+http://m.weather.com.cn/data/101280601.html   
