@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 __author__ = 'florije'
 
-from ..basic_handler import BaseHandler
 from flask import current_app
 from flask.ext.restful import reqparse
-from ..config import config
-import simplejson
+
 from ..utility import http_client
+from ..basic_handler import BaseHandler
+from ..config import config
+
+import simplejson
 
 
 class HelloHandler(BaseHandler):
