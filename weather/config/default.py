@@ -25,6 +25,8 @@ class Config:
     CURRENT_DAY_URL = 'http://weather.com.cn/data/cityinfo/%s%s%s.html'  # 获取当天天气信息
     CURRENT_TIME_URL = 'http://weather.com.cn/data/sk/%s%s%s.html'  # 获取实时天气信息
 
+    MUNICIPALITIES = ['10101', '10102', '10103', '10104']
+
     @staticmethod
     def init_app(app):
         pass
