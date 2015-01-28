@@ -1,13 +1,14 @@
 接口地址：
 
-获取省份：http://www.weather.com.cn/data/city3jdata/china.html
-获取区域：http://weather.com.cn/data/city3jdata/provshi/10101.html
-获取县市：http://weather.com.cn/data/city3jdata/station/1010100.html
-获取当天：http://weather.com.cn/data/cityinfo/101010100.html
-实时信息：http://weather.com.cn/data/sk/101010100.html
+获取省份：http://www.weather.com.cn/data/city3jdata/china.html   
+获取区域：http://weather.com.cn/data/city3jdata/provshi/10101.html   
+获取县市：http://weather.com.cn/data/city3jdata/station/1010100.html   
+获取当天：http://weather.com.cn/data/cityinfo/101010100.html   
+实时信息：http://weather.com.cn/data/sk/101010100.html   
 
 获取省份：
-{
+
+`{
 10101: "北京",
 10102: "上海",
 10103: "天津",
@@ -42,12 +43,13 @@
 10132: "香港",
 10133: "澳门",
 10134: "台湾"
-}
+`}
 
 获取区域：
-{
+
+`{
 00: "北京"
-}
+`}
 
 获取县市：
 {
