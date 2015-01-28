@@ -5,4 +5,8 @@ from ..basic_handler import BaseHandler
 
 
 class HelloHandler(BaseHandler):
-    pass
+    """
+    demo
+    """
+    def get(self):
+        return 'hello, world'

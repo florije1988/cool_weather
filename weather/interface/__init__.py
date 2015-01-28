@@ -8,4 +8,4 @@ api_interface = Api(app_interface, catch_all_404s=True)
 
 from . import views
 
-api_interface.add_resource(views.HelloHandler, '/hello')
+api_interface.add_resource(views.HelloHandler, '/')
