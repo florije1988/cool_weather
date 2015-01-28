@@ -24,6 +24,8 @@ class Config:
 
     CURRENT_DAY_URL = 'http://weather.com.cn/data/cityinfo/%s%s%s.html'  # 获取当天天气信息
     CURRENT_TIME_URL = 'http://weather.com.cn/data/sk/%s%s%s.html'  # 获取实时天气信息
+    SIX_DAY_URL = 'http://m.weather.com.cn/data/%s%s%s.html'  # 获取六天信息
+    SEVEN_DAY_URL = 'http://mobile.weather.com.cn/data/forecast/%s%s%s.html'  # 获取七天信息
 
     MUNICIPALITIES = ['10101', '10102', '10103', '10104']
 

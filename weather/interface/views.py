@@ -83,10 +83,10 @@ class LocationDayHandler(BaseHandler):
         args = parser.parse_args()
 
         if args.province_id in current_app.config.get('MUNICIPALITIES'):
-            city_url = current_app.config.get('CURRENT_DAY_URL') % (args.province_id, args.city_id, args.district_id)
+            day_url = current_app.config.get('CURRENT_DAY_URL') % (args.province_id, args.city_id, args.district_id)
         else:
-            city_url = current_app.config.get('CURRENT_DAY_URL') % (args.province_id, args.district_id, args.city_id)
-        content = http_client.get_json(city_url)
+            day_url = current_app.config.get('CURRENT_DAY_URL') % (args.province_id, args.district_id, args.city_id)
+        content = http_client.get_json(day_url)
 
         return self.json_output(data=simplejson.loads(content))
 
@@ -106,9 +106,9 @@ class LocationTimeHandler(BaseHandler):
         args = parser.parse_args()
 
         if args.province_id in current_app.config.get('MUNICIPALITIES'):
-            city_url = current_app.config.get('CURRENT_TIME_URL') % (args.province_id, args.city_id, args.district_id)
+            time_url = current_app.config.get('CURRENT_TIME_URL') % (args.province_id, args.city_id, args.district_id)
         else:
-            city_url = current_app.config.get('CURRENT_TIME_URL') % (args.province_id, args.district_id, args.city_id)
-        content = http_client.get_json(city_url)
+            time_url = current_app.config.get('CURRENT_TIME_URL') % (args.province_id, args.district_id, args.city_id)
+        content = http_client.get_json(time_url)
 
         return self.json_output(data=simplejson.loads(content))

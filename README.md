@@ -5,6 +5,8 @@
 获取县市：http://weather.com.cn/data/city3jdata/station/1010100.html   
 获取当天：http://weather.com.cn/data/cityinfo/101010100.html   
 实时信息：http://weather.com.cn/data/sk/101010100.html   
+六天信息：http://m.weather.com.cn/data/101010100.html
+七天信息：http://mobile.weather.com.cn/data/forecast/101010100.html
 
 获取省份：   
 `{
