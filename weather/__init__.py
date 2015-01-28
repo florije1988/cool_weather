@@ -8,7 +8,7 @@ from flask import Flask
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.marshmallow import Marshmallow
 # from flask.ext.bootstrap import Bootstrap
-from config import config
+from .config import config
 import os
 
 
@@ -40,6 +40,6 @@ def create_app(config_name):
     handler.setLevel(logging.INFO)
     app.logger.addHandler(handler)
 
-    app.debug = app.config.get
+    app.debug = app.config.get('DEBUG')
 
     return app
