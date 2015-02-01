@@ -13,7 +13,7 @@ class Config:
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
 
     APP_DEBUG = True
-    HOST = 'localhost'
+    HOST = '0.0.0.0'
     PORT = 5000
     LOG_PATH = 'logs'
     LOG_NAME = 'proj_logs.log'
